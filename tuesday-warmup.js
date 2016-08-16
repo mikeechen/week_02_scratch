@@ -6,7 +6,7 @@ function alphabetPosition(text) {
   		str=str+(text[i].charCodeAt()-96)+' ';
   	}
   }
-  return str;
+  return str.trim();
 }
 
 console.log(alphabetPosition("The sunset sets at twelve o' clock."));
